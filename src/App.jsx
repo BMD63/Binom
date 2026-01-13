@@ -1,11 +1,11 @@
-import Footer from './Footer'
+import Footer from './Footer.js'
 import MainScreen from './MainScreen.js';
 import SecondarySection from './SecondarySection.js';
-import Form from './Form';
+import Form from './Form.js';
 import ThankYou from './ThankYou.jsx';
 import React, {useState} from 'react';
-import { ButtonConext } from './ButtonContext';
-import { StyleConext } from './StyleContext';
+import { ButtonConext } from './ButtonContext.js';
+import { StyleConext } from './StyleContext.jsx';
 import { ThankContext } from './ThankContext.jsx';
 function App() {
   const [formVisible, setFormVisible] = useState(false);
